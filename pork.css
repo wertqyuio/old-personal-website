@@ -10,11 +10,10 @@ nav {
 
 nav a {
     padding: 15px;
-    color: orange;
+    color:rgb(113, 255, 47);
 }
 
 article#LandingPage h3 {
-    padding-top: 130px;
     padding-bottom: 25px;
 }
 
@@ -48,23 +47,28 @@ article#About ul :last-child{
 }
 
 body article {
-    margin-top: 100px;
+    margin-top: -25px;
     margin-bottom: 125px;
+    padding-top: 125px;
+}
+
+article#LandingPage {
+    padding-top: -10px;
 }
 
 hr {
-    border: 0.5px solid orange;
+    border: 0.5px solid green;
 }
 
 body {
-    background-color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: orange;
+    background-color: rgba(0, 0, 0, 0.005);
+    font-family: 'Montserrat', sans-serif;
+    color: darkgreen;
     text-align: center;
 }
 
 Article#About a{
-    color: orange;
+    color: green;
 }
 
 Article#About ul :first-child {
