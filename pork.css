@@ -1,0 +1,80 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 110px;
+    background-color:white;
+}
+
+nav a {
+    padding: 15px;
+    color: orange;
+}
+
+article#LandingPage h3 {
+    padding-top: 130px;
+    padding-bottom: 25px;
+}
+
+article#LandingPage ol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+article#LandingPage ol li {
+    display: block;
+    flex: 1 0 21%; /* Default */
+    margin: 5px;
+    height: 80px;
+}
+
+article#LandingPage ol :first-child{
+    display: block;
+    align-items: center;
+    flex: 1 0 100%; /* Default */
+    margin: 5px;
+    height: 100px;
+}
+
+article#About ul :last-child{
+    margin-bottom:25px;
+}
+
+body article {
+    margin-top: 100px;
+    margin-bottom: 125px;
+}
+
+hr {
+    border: 0.5px solid orange;
+}
+
+body {
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: orange;
+    text-align: center;
+}
+
+Article#About a{
+    color: orange;
+}
+
+Article#About ul :first-child {
+    margin-top: 15px;
+}
+
+Article#About ul{
+    list-style-type: none;
+}
+
+h3 + ul {
+    margin-right: 30px;
+}
